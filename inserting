@@ -1,0 +1,19 @@
+#include<stdio.h>
+using namespace std;
+int main()
+{
+  int arr[6],i,elem;
+  printf("\nenter 5 array elements");
+  for(i=0;i<5;i++)
+    scanf("%d",&arr[i]);
+  printf("\nenter elements to insert");
+  scanf("%d",&elem);
+  arr[i]=elem;
+  printf("\nthe new array is");
+  for(i=0;i<6;i++)
+    printf("%d",arr[i]);
+    printf("\nm.shashanka");
+    printf("\n192311083");
+  printf("\n");
+  return 0;
+}
