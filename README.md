@@ -20,12 +20,12 @@ Day 1
 
 Day 2 
 - Recursion and Search
-Find Fibbonacci series upto n numbers and it's sum
-Find the Factorial of a given number
-Find the nth Fibbonacci number using recursion
-Find the Factorial of a given number using recursion
-Linear search of array
-Binary search of array
+1. Find Fibbonacci series upto n numbers and it's sum
+2. Find the Factorial of a given number
+3. Find the nth Fibbonacci number using recursion
+4. Find the Factorial of a given number using recursion
+5. Linear search of array
+6. Binary search of array
 
 Day 3
 – Singly Linked List
@@ -36,8 +36,8 @@ Display
 Search
 Sort
 Find Max and Min
-2.	To determine whether a given singly linked list is a palindrome
-3.	To merge two sorted singly linked lists into a single sorted linked list
-4.	Print no of nodes in the given linked list
-5.	Intersect SLL
-6.	Reverse - SLL
+2. To determine whether a given singly linked list is a palindrome
+3. To merge two sorted singly linked lists into a single sorted linked list
+4. Print no of nodes in the given linked list
+5. Intersect SLL
+6. Reverse - SLL
