@@ -1,22 +1,22 @@
 
 Day 1 
 - Arrays
-Addition of Two Matrices
-Multiplication of Two Matrices
-Sum of Diagonals
-Transpose of a Matrix
-Insert element in array
-Delete element in array
-Merging arrays
-Find duplicate element
-Display the location of given element in array and print it
-Ascending/Descending/Alphabet order
-Check validation of String
-Largest element in matrix
-Repeated twice in array
-Print odd and even in given array
-Sum of row and column in matrix
-Given array elements display 5th iterated element
+1. Addition of Two Matrices
+2. Multiplication of Two Matrices
+3. Sum of Diagonals
+4. Transpose of a Matrix
+5. Insert element in array
+6. Delete element in array
+7. Merging arrays
+8. Find duplicate element
+9. Display the location of given element in array and print it
+10. Ascending/Descending/Alphabet order
+11. Check validation of String
+12. Largest element in matrix
+13. Repeated twice in array
+15. Print odd and even in given array
+16.Sum of row and column in matrix
+17. Given array elements display 5th iterated element
 
 Day 2 
 - Recursion and Search
