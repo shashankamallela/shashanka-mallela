@@ -28,7 +28,7 @@ Day 2
 6. Binary search of array
 
 Day 3
-– Singly Linked List
+-Singly Linked List
 1.	Implement SLL with following operations
 Insert(Beg,Mid,End)
 Delete(Beg,Mid,End)
