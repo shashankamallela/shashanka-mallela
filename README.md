@@ -43,17 +43,17 @@ Find Max and Min
 6. Reverse - SLL
    
 Day 4
-1.Implement DLL with following operations
-Insert(Beg,Mid,End)
-Delete(Beg,Mid,End)
-Display
-Search
-Sort
-Find Max and Min
-Implement Singly CLL with following operations
-Insert(Beg,Mid,End)
-Delete(Beg,Mid,End)
-Display
-Search
-Sort
-Find Max and Min
+1. Implement DLL with following operations
+  - Insert(Beg,Mid,End)
+   -Delete(Beg,Mid,End)
+   -Display
+   -Search
+   -Sort
+   -Find Max and Min
+2. Implement Singly CLL with following operations
+   -Insert(Beg,Mid,End)
+   -Delete(Beg,Mid,End)
+   -Display
+   -Search
+    -Sort
+    -Find Max and Min
