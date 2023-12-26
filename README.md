@@ -44,16 +44,16 @@ Find Max and Min
    
 Day 4
  - Implement DLL with following operations
-1.1 Insert(Beg,Mid,End)
-1.2 Delete(Beg,Mid,End)
-1.3 Display
-1.3 Search
-1.4 Sort
-1.5 Find Max and Min
+      -Insert(Beg,Mid,End)
+      -Delete(Beg,Mid,End)
+      - Display
+      - Search
+      - Sort
+      - Find Max and Min
  - Implement Singly CLL with following operations
-2.1 Insert(Beg,Mid,End)
-2.2 Delete(Beg,Mid,End)
-2.3 Display
-2.4 Search
-2.5 Sort
-2.6 Find Max and Min
+      - Insert(Beg,Mid,End)
+      - Delete(Beg,Mid,End)
+      - Display
+      - Search
+      -Sort
+      -Find Max and Min
