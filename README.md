@@ -28,7 +28,7 @@ Day 2
 6. Binary search of array
 
 Day 3
--Singly Linked List
+- Singly Linked List
 1.	Implement SLL with following operations
 Insert(Beg,Mid,End)
 Delete(Beg,Mid,End)
@@ -44,8 +44,8 @@ Find Max and Min
    
 Day 4
  - Implement DLL with following operations
-      -Insert(Beg,Mid,End)
-      -Delete(Beg,Mid,End)
+      - Insert(Beg,Mid,End)
+      - Delete(Beg,Mid,End)
       - Display
       - Search
       - Sort
@@ -55,8 +55,8 @@ Day 4
       - Delete(Beg,Mid,End)
       - Display
       - Search
-      -Sort
-      -Find Max and Min
+      - Sort
+      - Find Max and Min
 
 Day 5
 
