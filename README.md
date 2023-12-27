@@ -59,18 +59,22 @@ Day 4
       -Find Max and Min
 
 Day 5
--Implement Stack using array with following operations
+
+- Implement Stack using array with following operations
 1. Push()
 2. Pop()
 3. isEmpty( )
 4. isFull( )
 5. Display( )
 6. Peek( )
--Implement Stack using Linked List with following operations
+   
+- Implement Stack using Linked List with following operations
 1. Push()
 2. Pop()
 3. Display( )
 4. Peek( )
+   
 3.Consider 2 stacks, add bottom most element and top most element print the value
+
 4.Given a stack, delete the middle element of the stack without using any additional data structure.
 Middle element:- floor((size_of_stack+1)/2) (1-based indexing) from bottom of the stack.
