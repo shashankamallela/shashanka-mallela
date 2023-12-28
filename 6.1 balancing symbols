@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<stdbool.h>
+#define MAX_SIZE 100
+bool sym_bal(char symbols[]){
+    char stack[MAX_SIZE];
+    int top=-1,i;
+    for(i=0;symbols[i]!='\0';i++){
+        if(symbols[i]=='('||symbols[i]=='{' || symbols[i]=='['){
+            stack[++top]=symbols[i];
+        }
+        else (symbols[i]==')' || symbols[i]=='}' || symbols[i]==']'){
+            if(top==-1){
+                return false;
+            }
+            else if((symbols[i]==')' && stack[top]=='(') || (symbols[i] == '}' && stack[top] == '{') || (symbols[i]==']' && stack[top]=='[')){
+                top=top-1;
+            }
+            else{
+                return false;
+            }
+        }
+    }    
+    return (top==-1);
+}
+int main(){
+    char symbols[]="()";    
+    if(sym_bal(symbols)){
+        printf("Symbols are balanced\n");
+    }
+    else{
+        printf("Symbols are not balanced\n");
+    }    
+    return 0;
+}
+
+
+
+
+
+
+
+
