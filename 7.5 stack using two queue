@@ -1,0 +1,97 @@
+#include<stdio.h>
+#include<stdlib.h>
+int max=5;
+int a[5];
+int a2[5];
+int front=-1;
+int rear=-1;
+int front2=-1;
+int rear2=-1;
+int top=-1;
+void push(int num){
+	if(front==-1){
+		front=front+1;
+		rear=rear+1;
+		top=top+1;
+		a[front]=num;
+	}
+	else if(rear==max-1){
+		printf("overflow\n");
+	}
+	else{
+		rear=rear+1;
+		top=top+1;
+		a[rear]=num;
+	}
+}
+void pop(){
+	if(front2==-1){
+		printf("underflow\n");
+	}
+	else{
+		printf("%d deleted\n",a2[front2]);
+		int i,j;
+		for(i=front2;i<=rear2;i++){
+			for(j=i+1;j<=rear2;j++){
+				a2[i]=a2[j];
+				break;
+			}
+		}
+		rear2--;
+		top--;
+	}
+}
+void peekq(){
+	if(front==-1){
+		printf("queue is empty\n");
+	}
+	else{
+	    printf("front: %d\nrear: %d\n",a[front],a[rear]);		
+	}
+}
+void peek(){
+	if(top==-1){
+		printf("queue is empty\n");
+	}
+	else{
+		printf("top= %d",a2[top]);
+	}
+}
+void display(){
+	if(front2==-1){
+		printf("queue is empty\n");
+	}
+	else{
+		int i;
+		for(i=front2;i<=rear2;i++){
+			printf("%d,",a2[i]);
+		}
+		printf("\n");
+	}
+}
+void a2_update(){
+	int i,j;
+	front2=front;
+	rear2=rear;
+	j=front;
+	for(i=rear;i>=front;i--){
+		while(j<=rear){
+			a2[j]=a[i];
+			j=j+1;
+			break;
+		}
+	}
+	rear=-1;
+	front=-1;
+}
+int main(){
+	printf("192311083\n");
+	push(10);
+	push(20);
+	push(30);
+	push(40);
+	a2_update();
+	pop();
+	display();
+	peek();
+}
