@@ -111,7 +111,7 @@ Day 7
 - Display( )
 - front( ) orPeek( )
 - rear( )
-4 .Implement CircularQueue using Linked List with following operations
+4. Implement CircularQueue using Linked List with following operations
 - Enqueue( )
 - Dequeue( )
 - Display( )
