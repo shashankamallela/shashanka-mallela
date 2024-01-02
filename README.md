@@ -89,7 +89,7 @@ Day 6
 
 Day 7
 
-- 1.Implement Queue using array with following operations
+1. Implement Queue using array with following operations
 - Enqueue( )
 - Dequeue( )
 - isEmpty( )
@@ -97,7 +97,7 @@ Day 7
 - Display( )
 - front( ) orPeek( )
 - rear( )
-2 .Implement Queue using Linked List with following operations
+2. Implement Queue using Linked List with following operations
 - Enqueue( )
 - Dequeue( )
 - Display( )
@@ -111,7 +111,7 @@ Day 7
 - Display( )
 - front( ) orPeek( )
 - rear( )
-4. Implement CircularQueue using Linked List with following operations
+4.  Implement CircularQueue using Linked List with following operations
 - Enqueue( )
 - Dequeue( )
 - Display( )
