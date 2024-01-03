@@ -127,5 +127,12 @@ Day 7
 3. Create Binary Search Tree with Tree Traversal (Inorder, Preorder, Postorder and Level order)
 
 Day 9
+
 1. Implement a C Program for AVL tree and perform Insertion and Deletion of Nodes
+
+   
+Day 10
+
+1. Implement a C Program for Red Black tree and perform Insertion and Deletion of Nodes
+2. Implement a C Program for Splay tree tree and perform Insertion and Deletion of Nodes
 
