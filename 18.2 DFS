@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdbool.h>
+#define MAX_VERTICES 100
+typedef struct {
+    int vertices[MAX_VERTICES][MAX_VERTICES];
+    int numVertices;
+} Graph;
+void initGraph(Graph* graph, int numVertices) {
+    graph->numVertices = numVertices;
+    for (int i = 0; i < numVertices; i++) {
+        for (int j = 0; j < numVertices; j++) {
+            graph->vertices[i][j] = 0;
+        }
+    }
+}
+void addEdge(Graph* graph, int src, int dest) {
+    graph->vertices[src][dest] = 1;
+    graph->vertices[dest][src] = 1;
+}
+void dfs(Graph* graph, int vertex, bool visited[]) {
+    visited[vertex] = true;
+    printf("%d ", vertex);
+
+    for (int i = 0; i < graph->numVertices; i++) {
+        if (graph->vertices[vertex][i] == 1 && !visited[i]) {
+            dfs(graph, i, visited);
+        }
+    }
+}
+void traverseGraph(Graph* graph, int startVertex) {
+    bool visited[MAX_VERTICES] = { false };
+
+    dfs(graph, startVertex, visited);
+}
+
+int main() {
+    Graph graph;
+    int numVertices, startVertex;
+    printf("Enter the number of vertices: ");
+    scanf("%d", &numVertices);
+    initGraph(&graph, numVertices);
+    int src, dest;
+    while (true) {
+        printf("Enter an edge (or -1 -1 to exit): ");
+        scanf("%d %d", &src, &dest);
+
+        if (src == -1 && dest == -1) {
+            break;
+        }
+        addEdge(&graph, src, dest);
+    }
+    printf("Enter the starting vertex: ");
+    scanf("%d", &startVertex);
+    printf("DFS traversal: ");
+    traverseGraph(&graph, startVertex);
+    return 0;
+}
